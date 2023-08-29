@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universo</title>
+  <link rel="preload" as="image" href="./assets/mountains-universe-1.png">
+  <link rel="preload" as="image" href="./assets/mountains-universe02.png">
+  <link rel="preload" as="image" href="./assets/mountains-universe-3.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./assets/Vector.svg" type="image/x-icon">
+  <script src="./js/main.js" type="module" defer></script>
+</head>
+<body id="body">
+  <nav id="navigation">
+    <img src="./assets/Vector.svg" alt="Simbolo de galáxia">
+    <a href="/" onclick="route()" class="active" data-action="home" id="btnHome">Home</a>
+    <a href="/universe" onclick="route()" data-action="universe" id="btnUniverse">O Universo</a>
+    <a href="/exploration" onclick="route()" data-action="exploration" id="btnExploration">Exploração</a>
+  </nav>
+  
+
+  <div id="app"></div>
+  
+
+</body>
+</html>
